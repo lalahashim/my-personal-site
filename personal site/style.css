@@ -47,7 +47,9 @@ body{
     }
 }
 
-
+.certificate-heading{
+    text-align: center;
+}
 .btn {
     display: inline-block;
     background-color: #A25772;
