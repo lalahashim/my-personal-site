@@ -1,0 +1,160 @@
+body{
+    background-color: #EAEAE7;
+    color: #A25772;
+    font-family: "Libre Baskerville";
+}
+
+.aboutme {
+    font-size: 18px;
+}
+
+#certificates .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#certificates .container img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для аккуратности */
+}
+
+.cert-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.certificate-text {
+    flex: 1;
+    text-align: left;
+    font-size: 18px;
+}
+.cert-card{
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .cert-content {
+        flex-direction: column;
+    }
+
+    .cert-card {
+        max-width: 100%;
+    }
+}
+
+.certificate-heading{
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    background-color: #A25772;
+    color: #EAEAE7;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+.btn:hover {
+    background-color: #EAEAE7;
+    color: #A25772;
+    border-color: #A25772;
+}
+
+a.btn:active,
+a.btn:focus,
+button:active,
+button:focus {
+    background-color: #EAEAE7 !important;
+    color: #A25772 !important;
+    border-color: #A25772 !important;
+    outline: none !important;
+}
+
+.header-border {
+    border-color: #A25772 !important
+}
+
+.footer-border {
+    border-color: #EAEAE7 !important
+}
+
+.nav-link{
+    color: #A25772 !important;
+}
+
+.fs-4{
+    color: #A25772;
+}
+
+#footer {
+    background-color: #A25772;
+}
+
+.f-nav{
+    color: #EAEAE7 !important;
+}
+
+.footer-p {
+    color: #EDE8DC !important;
+}
+
+.btn-primary {
+    background-color: #A25772;
+    border-color: #A25772;
+    color: #EAEAE7;
+}
+
+.card{
+    background-color: #EAEAE7;
+    color: #A25772;
+}
+
+#resume .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+#resume{
+    background-color: #A25772;
+    color: #EAEAE7;
+    border-radius: 10px;
+}
+
+.web-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.card {
+    width: calc(100% - 32px);
+    max-width: 18rem;
+}
+
+@media (min-width: 576px){
+    .card {
+        width: calc(50% - 32px);
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        width: calc(25% - 32px);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    text-align: left;
+}
