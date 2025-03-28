@@ -1,0 +1,199 @@
+body{
+    background-color: #F8EDE3;
+    color: #A04747;
+    font-family: "Libre Baskerville";
+}
+html {
+    scroll-behavior: smooth;
+}
+p {
+    text-align: left;
+}
+
+.aboutme {
+    font-size: 18px;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.skills-heading {
+    text-align: center;
+}
+.skills-descr{
+    margin-left: 30px;
+}
+
+#certificates .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+#certificates .container img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для аккуратности */
+}
+.cert-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.certificate-text {
+    flex: 1;
+    text-align: left;
+    font-size: 18px;
+}
+.cert-card{
+    flex: 1;
+}
+.certificate-heading{
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #A04747;
+    color: #F8EDE3;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+.btn:hover {
+    background-color: #F8EDE3;
+    color: #A04747;
+    border-color: #A04747;
+}
+a.btn:active,
+a.btn:focus,
+button:active,
+button:focus {
+    background-color: #F8EDE3 !important;
+    color: #A04747 !important;
+    border-color: #A04747 !important;
+    outline: none !important;
+}
+.btn-primary {
+    background-color: #A04747;
+    border-color: #A04747;
+    color: #F8EDE3;
+}
+
+
+.header-border {
+    border-color: #A04747 !important
+}
+.nav-link{
+    color: #A04747 !important;
+}
+.fs-4{
+    color: #A04747;
+}
+#footer {
+    background-color: #A04747;
+}
+.footer-p {
+    color: #EDE8DC !important;
+}
+
+
+.card{
+    background-color: #F8EDE3;
+    color: #A04747;
+}
+
+
+#resume .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+#resume{
+    background-color: #A04747;
+    color: #F8EDE3;
+    border-radius: 10px;
+}
+
+.web-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.card {
+    width: calc(100% - 32px);
+    max-width: 18rem;
+}
+
+@media (min-width: 576px){
+    .card {
+        width: calc(50% - 32px);
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        width: calc(25% - 32px);
+    }
+}
+@media (max-width: 768px) {
+    .cert-content {
+        flex-direction: column;
+    }
+
+    .cert-card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    #hard-skills{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #soft-skills{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1024px){
+    #hard-skills{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #soft-skills{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+    #hard-skills{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    #soft-skills{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #hard-skills{
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    #soft-skills{
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+}
